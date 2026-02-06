@@ -24,6 +24,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
 /* main style */
@@ -49,6 +50,9 @@ nav .manue a{
 
 header{
     background-color:#FFF8F3;
+    background: url("../images/developer.png"), url(../images/header_bg.png), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 nav{
@@ -58,5 +62,38 @@ nav{
     margin: 0px auto;
     display: flex;
     justify-content:space-between;
-    align-items: center;
+    align-items:center;
 }
+.banner{
+    /* border: 1px solid rebeccapurple; */
+    margin:47px 38px 0px 223px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.banner .banner-contente{
+    max-width: 585px;
+}
+.banner .banner-contente h2{
+font-size: 45px;
+font-weight: 600;
+color: #474747;
+margin-bottom: 5px;
+}
+#banner .banner-contente h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+#banner .banner-contente p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image{
+    max-width: 585px;
+    vertical-align: middle;
+}
+
+
